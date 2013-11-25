@@ -4,15 +4,30 @@ title: Central Theater
 
 %aside
   %nav
-    %img.window{:alt => "some_text", :src => "images/windowscape.png"}
+    %img.window{:alt => "vinyard windowscape", :src => "images/windowscape.png"}
     .menu
       %ul
         %li= link_to "About Us", "about.html"
         %li= link_to "Products", "products.html"
   %section
     .special
-      %p
-        Wine of the Month!
+      %img#full-special{:alt => "Wine of the Month Special", :src => "images/monthlywine.png" }
+      %img#mobile-special{:alt => "Wine of the Month Special", :src => "images/monthlywinemobile.png" }
 
 %main
-  .storerotator
+  .flexslider
+    %ul.slides
+      %li
+        %img{:src => "images/IMG_0038.JPG"}/
+      %li
+        %img{:src => "images/IMG_0042.JPG"}/
+      %li
+        %img{:src => "images/IMG_0048.JPG"}/
+      %li
+        %img{:src => "images/IMG_0054.JPG"}/
+      %li
+        %img{:src => "images/IMG_0063.JPG"}/
+      %li
+        %img{:src => "images/IMG_0068.JPG"}/
+      %li
+        %img{:src => "images/IMG_0077.JPG"}/
