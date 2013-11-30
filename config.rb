@@ -1,4 +1,9 @@
-load "products.rb"
+helpers do
+  load "products.rb"
+  def products
+    items
+  end
+end
 
 ###
 # Compass

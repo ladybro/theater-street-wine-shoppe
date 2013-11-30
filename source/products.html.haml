@@ -2,7 +2,8 @@
 title: Central Theater
 ---
 
-= PRODUCTS[:wine]['prod 1']
+- products.categories.each do |cat|
+  = link_to cat.name, "products.html?category=#{cat.name}"
 
 %script#product-template{:type => "text/x-handlebars-template"}
   .product
@@ -23,16 +24,16 @@ title: Central Theater
       .flexslider
         %ul.slides
           %li
-            %img{:src => "images/giftbasket1.png"}   
+            %img{:src => "images/giftbasket1.png"}
           %li
-            %img{:src => "images/rasjam.png"}/           
+            %img{:src => "images/rasjam.png"}/
           %li
             %img{:src => "images/winelinup.png"}/
           %li
-            %img{:src => "images/pumpjam.png"}/   
+            %img{:src => "images/pumpjam.png"}/
           %li
-            %img{:src => "images/productshelf.png"}   
-  
+            %img{:src => "images/productshelf.png"}
+
 
 
 %main
@@ -88,7 +89,7 @@ title: Central Theater
     %p.candle
       Theresa's Candles and Things <br>
     %p
-      Soy candles in a variety of scents 
+      Soy candles in a variety of scents
 
     %p.Eric
       Wood Art by Eric <br>
