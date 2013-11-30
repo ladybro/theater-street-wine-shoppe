@@ -2,20 +2,15 @@
 title: Central Theater
 ---
 
-%aside
-  %nav
-    %img.window{:alt => "some_text", :src => "images/windowscape.png"}
-    .menu
-      %ul
-        %li= link_to "Home", "index.html"
-        %li= link_to "About Us", "about.html"
-        %li= link_to "Products", "products.html"
-  %section
-    .mission
-      %p.title
-        Our Mission:
-      %p.statement
-        Our mission is to provide the highest quality products from the best local vendors. We offer sustainable and healthy products that range from gluten free goods up to organic, raw milk cheeses. More than 90% of our products come from local or family owned small businesses within Pennsylvania. We also aim to support our more local community by providing our store as a venue for local artists to display and sell their work. 
+%header#page
+  %aside
+    = partial "menu"
+
+  %section.mission
+    %p.title
+      Our Mission:
+    %p.statement
+      Our mission is to provide the highest quality products from the best local vendors. We offer sustainable and healthy products that range from gluten free goods up to organic, raw milk cheeses. More than 90% of our products come from local or family owned small businesses within Pennsylvania. We also aim to support our more local community by providing our store as a venue for local artists to display and sell their work.
 
 %main
   .story
