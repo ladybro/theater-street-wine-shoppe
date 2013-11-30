@@ -14,8 +14,8 @@ body{
 /***********************************************************************************************************
                                               Header
 ************************************************************************************************************/
-.name { 
-  font-family: ambrielbold_italic, Arial, sans-serif; 
+.name {
+  font-family: ambrielbold_italic, Arial, sans-serif;
   text-align: center;
   font-size: 2.9em;
   padding: 15px 0px 15px;
@@ -39,7 +39,7 @@ aside{
     }
   .menu{
     text-align: center;
-    font-size: 1.5em; 
+    font-size: 1.5em;
     color: #453833;
     border-left: #554845 solid 1px;
     border-right: #554845 solid 1px;
@@ -55,7 +55,7 @@ aside{
     a:hover {
     }
     a:active {
-    } 
+    }
     @include span-columns(3);
     @include media($mobile){
       @include span-columns(3);
@@ -159,6 +159,19 @@ main{
     padding-top: 18px;
     font-weight: bold;
     text-decoration: underline;
+  }
+}
+
+.products{
+  @include outer-container;
+}
+
+.item-block{
+  @include span-columns(3);
+  @include omega(4n);
+  img{
+    width: 100%;
+    height: 100%;
   }
 }
 
