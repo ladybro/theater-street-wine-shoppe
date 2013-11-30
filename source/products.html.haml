@@ -5,6 +5,9 @@ title: Central Theater
 - products.categories.each do |cat|
   = link_to cat.name, "products.html?category=#{cat.name}"
 
+- products.items.each do |item|
+  = partial 'product', :locals => item.as_hash
+
 %script#product-template{:type => "text/x-handlebars-template"}
   .product
     .title {{title}}

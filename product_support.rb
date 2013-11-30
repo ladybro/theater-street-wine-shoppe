@@ -46,6 +46,16 @@ class Item
     @image = hash[:image]
   end
 
+  def as_hash
+    {
+      name: @name,
+      category: @category.name,
+      price: @price,
+      description: @description,
+      image: @image
+    }
+  end
+
 end
 
 
