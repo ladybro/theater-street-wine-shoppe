@@ -2,6 +2,14 @@
 title: Central Theater
 ---
 
+= PRODUCTS[:wine]['prod 1']
+
+%script#product-template{:type => "text/x-handlebars-template"}
+  .product
+    .title {{title}}
+    %img{:src =>"{{img_src}}"}
+    .description {{{description}}}
+
 %aside
   %nav
     %img.window{:alt => "some_text", :src => "images/windowscape.png"}
