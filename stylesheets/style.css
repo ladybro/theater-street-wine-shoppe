@@ -280,38 +280,44 @@ main {
   main p.clovercreek {
     padding-top: 18px; }
   /* line 166, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
-  main p.sticky {
+  main p.EmeraldValley {
     padding-top: 18px; }
   /* line 169, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+  main p.sticky {
+    padding-top: 18px; }
+  /* line 172, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+  main p.ToffeeHouse {
+    padding-top: 18px; }
+  /* line 175, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
   main p.candle {
     padding-top: 18px;
     font-weight: bold;
     text-decoration: underline; }
-  /* line 174, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+  /* line 180, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
   main p.Eric {
     padding-top: 18px;
     font-weight: bold;
     text-decoration: underline; }
 
-/* line 181, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 187, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 .productlist {
   padding-top: 12px;
   padding-bottom: 25px; }
 
-/* line 186, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 192, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 p.title {
   font-size: 1.6em;
   font-weight: bold;
   padding-top: 10px; }
 
-/* line 191, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 197, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 .italic {
   font-style: italic; }
 
 /***********************************************************************************************************
                                               Footer
 ************************************************************************************************************/
-/* line 200, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 206, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 footer {
   *zoom: 1;
   max-width: 68em;
@@ -326,7 +332,7 @@ footer {
   footer:after {
     clear: both; }
 
-/* line 205, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 211, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 .leftCol {
   display: block;
   float: left;
@@ -340,7 +346,7 @@ footer {
   .leftCol:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
-    /* line 205, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+    /* line 211, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
     .leftCol {
       display: block;
       float: left;
@@ -350,7 +356,7 @@ footer {
       .leftCol:last-child {
         margin-right: 0; } }
 
-/* line 216, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 222, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 .rightCol {
   display: block;
   float: left;
@@ -366,7 +372,7 @@ footer {
   .rightCol:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
-    /* line 216, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+    /* line 222, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
     .rightCol {
       display: block;
       float: left;
@@ -377,7 +383,7 @@ footer {
       .rightCol:last-child {
         margin-right: 0; } }
 
-/* line 230, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+/* line 236, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
 .facebook {
   text-align: center;
   padding-top: 10px;
@@ -389,14 +395,14 @@ footer {
   .facebook:last-child {
     margin-right: 0; }
   @media screen and (max-width: 480px) {
-    /* line 230, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+    /* line 236, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
     .facebook {
       display: block;
       float: left;
       margin-right: 7.42297%;
       width: 100%;
       clear: both; }
-      /* line 235, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
+      /* line 241, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/style.scss */
       .facebook * {
         margin: auto; }
       /* line 33, /Users/neonnightlifess1/websiteprojects/centraltheaterwineshoppe/theater-street-wine-shoppe/source/stylesheets/neat/grid/_span-columns.scss */
