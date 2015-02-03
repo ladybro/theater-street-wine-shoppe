@@ -7,7 +7,11 @@ title: Central Theater
   %section.special
     %img#full-special{:alt => "Wine of the Month Special", :src => "images/monthwine.jpeg" }
     %p.title
+<<<<<<< HEAD
+      Wine Special<br> January 2015
+=======
       February 2015
+>>>>>>> WIP for updates
     %p.wine
       Chocolate
 
